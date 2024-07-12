@@ -49,14 +49,14 @@ Colors:
 
 @font-face {
 	font-family: 'nunito';
-	src: url('/webfonts/Nunito-Regular.ttf') format('woff2');
+	src: url('/webfonts/Nunito-Regular.ttf') format('truetype');
 	font-weight: normal;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: 'nunito-bold';
-	src: url('/webfonts/Nunito-Bold.ttf') format('woff2');
+	src: url('/webfonts/Nunito-Bold.ttf') format('truetype');
 	font-weight: normal;
 	font-style: normal;
 }
