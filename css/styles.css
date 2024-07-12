@@ -696,7 +696,7 @@ input[type='checkbox'] {
 
 .navbar-custom .nav-item .nav-link {
 	padding: 0.625rem 0.75rem 0.625rem 0.75rem;
-	color: #113448;
+	color: #fff;
 	text-decoration: none;
 	text-transform: uppercase;
 	transition: all 0.2s ease;
@@ -828,13 +828,14 @@ input[type='checkbox'] {
 
 .header h1 {
 	margin-bottom: 0.5rem;
-	color: #113448;
+	color: #fff;
 }
 
 .header .p-large {
 	margin-bottom: 2rem;
-	color: #113448;
+	color: #edecec;
 	font-family: "nunito-bold";
+	font-size: larger;
 }
 
 .header .btn-solid-lg {
@@ -1296,12 +1297,23 @@ input[type='checkbox'] {
 	color: #14bf98;
 }
 
-.tabs .image-section {
+.tabs .image-section-1 {
 	height: 27rem;
-	background: url('../images/cong-troi-quan-ba.jpg') center center no-repeat;
+	background: url('../images/schedule/1.JPG') center center no-repeat;
 	background-size: cover;
 }
 
+.tabs .image-section-2 {
+	height: 27rem;
+	background: url('../images/schedule/2.JPG') center center no-repeat;
+	background-size: cover;
+}
+
+.tabs .image-section-3 {
+	height: 27rem;
+	background: url('../images/schedule/3.JPG') center center no-repeat;
+	background-size: cover;
+}
 
 /****************************/
 /*     10. Testimonials     */
