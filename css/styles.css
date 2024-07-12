@@ -46,7 +46,7 @@ Colors:
 /******************************/
 /*     01. General Styles     */
 /******************************/
-
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
 @font-face {
 	font-family: 'nunito';
 	src: url('/webfonts/Nunito-Regular.ttf') format('truetype');
@@ -65,20 +65,20 @@ body,
 html {
     width: 100%;
 	height: 100%;
-	font-family: "nunito";
+	font-family: "Nunito";
 }
 
 body, p {
 	color: #787976; 
-	font: 400 1rem/1.5625rem "nunito";
+	font: 400 1rem/1.5625rem "Nunito";
 }
 
 .p-large {
-	font: 400 1.125rem/1.625rem "nunito";
+	font: 400 1.125rem/1.625rem "Nunito";
 }
 
 .p-small {
-	font: 400 0.875rem/1.375rem "nunito";
+	font: 400 0.875rem/1.375rem "Nunito";
 }
 
 .p-heading {
@@ -101,32 +101,32 @@ body, p {
 
 h1 {
 	color: #484a46;
-	font: 700 2.5rem/3rem "nunito";
+	font: 700 2.5rem/3rem "Nunito";
 }
 
 h2 {
 	color: #484a46;
-	font: 700 1.75rem/2.125rem "nunito";
+	font: 700 1.75rem/2.125rem "Nunito";
 }
 
 h3 {
 	color: #484a46;
-	font: 700 1.375rem/1.75rem "nunito";
+	font: 700 1.375rem/1.75rem "Nunito";
 }
 
 h4 {
 	color: #484a46;
-	font: 700 1.25rem/1.625rem "nunito";
+	font: 700 1.25rem/1.625rem "Nunito";
 }
 
 h5 {
 	color: #484a46;
-	font: 700 1.125rem/1.5rem "nunito";
+	font: 700 1.125rem/1.5rem "Nunito";
 }
 
 h6 {
 	color: #484a46;
-	font: 700 1rem/1.375rem "nunito";
+	font: 700 1rem/1.375rem "Nunito";
 }
 
 a {
@@ -153,7 +153,7 @@ a.white,
 }
 
 .testimonial-author {
-	font: 700 1rem/1.375rem "nunito";
+	font: 700 1rem/1.375rem "Nunito";
 }
 
 strong {
@@ -172,7 +172,7 @@ strong {
 	border-radius: 0.25rem;
 	background-color: #14bf98;
 	color: #fff;
-	font: 700 0.75rem/0 "nunito";
+	font: 700 0.75rem/0 "Nunito";
 	text-decoration: none;
 	transition: all 0.2s;
 }
@@ -190,7 +190,7 @@ strong {
 	border-radius: 0.25rem;
 	background-color: #14bf98;
 	color: #fff;
-	font: 700 0.75rem/0 "nunito";
+	font: 700 0.75rem/0 "Nunito";
 	text-decoration: none;
 	transition: all 0.2s;
 }
@@ -208,7 +208,7 @@ strong {
 	border-radius: 0.25rem;
 	background-color: transparent;
 	color: #787976;
-	font: 700 0.75rem/0 "nunito";
+	font: 700 0.75rem/0 "Nunito";
 	text-decoration: none;
 	transition: all 0.2s;
 }
@@ -226,7 +226,7 @@ strong {
 	border-radius: 0.25rem;
 	background-color: transparent;
 	color: #787976;
-	font: 700 0.75rem/0 "nunito";
+	font: 700 0.75rem/0 "Nunito";
 	text-decoration: none;
 	transition: all 0.2s;
 }
@@ -244,7 +244,7 @@ strong {
 	border-radius: 0.25rem;
 	background-color: transparent;
 	color: #787976;
-	font: 700 0.75rem/0 "nunito";
+	font: 700 0.75rem/0 "Nunito";
 	text-decoration: none;
 	transition: all 0.2s;
 }
@@ -274,7 +274,7 @@ strong {
 	left: 1.375rem;
 	color: #787976;
 	opacity: 1;
-	font: 400 0.875rem/1.375rem "nunito";
+	font: 400 0.875rem/1.375rem "Nunito";
 	cursor: text;
 	transition: all 0.2s ease;
 }
@@ -307,7 +307,7 @@ strong {
 	border-radius: 0.25rem;
 	background-color: #fff;
 	color: #787976;
-	font: 400 0.875rem/1.375rem "nunito";
+	font: 400 0.875rem/1.375rem "Nunito";
 	transition: all 0.2s;
 	-webkit-appearance: none; /* removes inner shadow on form inputs on ios safari */
 }
@@ -361,7 +361,7 @@ select::-ms-expand {
 	border-radius: 0.25rem;
 	background-color: #fff;
 	color: #787976;
-	font: 400 1rem/1.5625rem "nunito";
+	font: 400 1rem/1.5625rem "Nunito";
 	transition: all 0.2s;
 }
 
@@ -379,7 +379,7 @@ select::-ms-expand {
 }
 
 .checkbox {
-	font: 400 0.875rem/1.375rem "nunito";
+	font: 400 0.875rem/1.375rem "Nunito";
 }
 
 input[type='checkbox'] {
@@ -402,7 +402,7 @@ input[type='checkbox'] {
 	border-radius: 0.25rem;
 	background-color: #14bf98;
 	color: #fff;
-	font: 700 0.75rem/1.75rem "nunito";
+	font: 700 0.75rem/1.75rem "Nunito";
 	cursor: pointer;
 	transition: all 0.2s;
 }
@@ -422,7 +422,7 @@ input[type='checkbox'] {
 	display: block;
 	margin-bottom: 0;
 	color: #b93636;
-	font: 400 1.125rem/1rem "nunito";
+	font: 400 1.125rem/1rem "Nunito";
 }
 
 .help-block.with-errors .list-unstyled {
@@ -667,7 +667,7 @@ input[type='checkbox'] {
 	padding-bottom: 0.375rem;
 	background-color: #113448;
 	box-shadow: 0 0.0625rem 0.375rem 0 rgba(0, 0, 0, 0.1);
-	font: 600 0.875rem/0.875rem "nunito";
+	font: 600 0.875rem/0.875rem "Nunito";
 	transition: all 0.2s;
 }
 
@@ -684,7 +684,7 @@ input[type='checkbox'] {
 .navbar-custom .navbar-brand.logo-text {
 	margin-top: 0.25rem;
 	margin-bottom: 0.25rem;
-	font: 700 2.25rem/1.5rem "nunito";
+	font: 700 2.25rem/1.5rem "Nunito";
 	color: #fff;
 	text-decoration: none;
 }
@@ -749,7 +749,7 @@ input[type='checkbox'] {
 }
 
 .navbar-custom .dropdown-item .item-text {
-	font: 600 0.875rem/0.875rem "nunito";
+	font: 600 0.875rem/0.875rem "Nunito";
 }
 
 .navbar-custom .dropdown-item:hover .item-text {
@@ -1054,7 +1054,7 @@ input[type='checkbox'] {
 .cards-2 .price {
 	margin-bottom: 0.25rem;
 	color: #484a46;
-	font: 700 1.5rem/2rem "nunito";
+	font: 700 1.5rem/2rem "Nunito";
 	text-align: center;
 	color: red;
 }
@@ -1126,7 +1126,7 @@ input[type='checkbox'] {
 	border-radius: 50%;
 	background-color: #14bf98;
 	color: #fff;
-	font: 600 1rem/1.75rem "nunito";
+	font: 600 1rem/1.75rem "Nunito";
 	text-align: center;
 	vertical-align: middle;
 	cursor: pointer;
@@ -1150,7 +1150,7 @@ input[type='checkbox'] {
 	margin-top: 0.125rem;
 	margin-bottom: 0.25rem;
 	color: #484a46;
-	font: 600 1.2rem/1.5rem "nunito";
+	font: 600 1.2rem/1.5rem "Nunito";
 	vertical-align: middle;
 	cursor: pointer;
 	transition: all 0.2s ease;
@@ -1211,7 +1211,7 @@ input[type='checkbox'] {
 	border: none;
 	border-radius: 0.25rem;
 	color: #c1cace;
-	font: 700 1.375rem/1.375rem "nunito";
+	font: 700 1.375rem/1.375rem "Nunito";
 	text-decoration: none;
 	transition: all 0.2s ease;
 }
@@ -1234,7 +1234,7 @@ input[type='checkbox'] {
 .tabs #tab-1 .progress-container .title {
 	margin-bottom: 0.25rem;
 	color: #484a46;
-	font: 600 0.875rem/1.25rem "nunito";
+	font: 600 0.875rem/1.25rem "Nunito";
 }
 
 .tabs #tab-1 .progress {
@@ -1498,7 +1498,7 @@ input[type='checkbox'] {
 	border-radius: 0.25rem;
 	background-color: #f1f4f7;
 	color: #7b7e85;
-	font: 700 1rem/1.25rem "nunito";
+	font: 700 1rem/1.25rem "Nunito";
 	cursor: pointer;
 	transition: all 0.2s ease;
 }
@@ -1564,7 +1564,7 @@ input[type='checkbox'] {
 	right: 0;
 	left: 0;
 	color: #fff;
-	font: 700 1.125rem/1.625rem "nunito";
+	font: 700 1.125rem/1.625rem "Nunito";
 }
 
 
@@ -1692,7 +1692,7 @@ input[type='checkbox'] {
 .basic-2 .team-member .job-title {
 	margin-bottom: 0.75rem;
 	color: #484a46;
-	font: 700 1rem/1.375rem "nunito";
+	font: 700 1rem/1.375rem "Nunito";
 }
 
 .basic-2 .fa-stack {
@@ -1785,7 +1785,7 @@ input[type='checkbox'] {
 	display: inline-block;
 	margin-bottom: 0.125rem;
 	color: #14bf98;
-	font: 700 2.875rem/3.25rem "nunito";
+	font: 700 2.875rem/3.25rem "Nunito";
 	vertical-align: middle;
 }
 
@@ -2122,7 +2122,7 @@ a:hover.back-to-top {
 	}
 
 	.header h1 {
-		font: 700 3.5rem/4rem "nunito";
+		font: 700 3.5rem/4rem "Nunito";
 	}
 	/* end of header */
 
