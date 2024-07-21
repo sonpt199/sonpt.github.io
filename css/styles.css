@@ -54,12 +54,12 @@ Colors:
 	font-style: normal;
 }
 
-@font-face {
+/* @font-face {
 	font-family: 'nunito-bold';
 	src: url('/webfonts/Nunito-Bold.ttf') format('truetype');
 	font-weight: normal;
 	font-style: normal;
-}
+} */
 
 body,
 html {
@@ -162,7 +162,8 @@ strong {
 
 .section-title {
 	color: #14bf98;
-	font: 500 0.9125rem/1.325rem "nunito-bold";
+	font-weight: bold;
+	font: 500 0.9125rem/1.325rem "Nunito";
 }
 
 .btn-solid-reg {
@@ -700,8 +701,8 @@ input[type='checkbox'] {
 	text-decoration: none;
 	text-transform: uppercase;
 	transition: all 0.2s ease;
-	font-weight: bolder;
-	font-family: "nunito-bold";
+	font-weight: bold;
+	font-family: "Nunito";
 	font-size: large;
 }
 
@@ -784,6 +785,10 @@ input[type='checkbox'] {
 	display: inline-block;
 }
 
+.navbar-custom a[aria-expanded='false'] {
+	display: none;
+}
+
 .navbar-custom button[aria-expanded='true'] .navbar-toggler-awesome.fas.fa-bars{
 	display: none;
 }
@@ -797,6 +802,29 @@ input[type='checkbox'] {
 /*********************/
 /*    04. Header     */
 /*********************/
+@media (max-width: 768px) {
+	.carousel {
+		display: none;
+	}
+
+	.mobile-header-image {
+		display: inline;
+		display: flex;
+		align-items: center;
+		height: 100vh;
+		justify-content: center;
+	}
+
+	.mobile-header-image img {
+		height: 100%;
+		width: auto;
+	}
+
+	.header-content {
+		top: -15% !important;
+	}
+}
+
 .header {
 	/* background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url('../images/header/1.jpg') center center no-repeat; */
 	background-size: cover;
@@ -834,7 +862,8 @@ input[type='checkbox'] {
 .header .p-large {
 	margin-bottom: 2rem;
 	color: #edecec;
-	font-family: "nunito-bold";
+	font-family: "Nunito";
+	font-weight: bold;
 	font-size: larger;
 }
 
@@ -989,8 +1018,13 @@ input[type='checkbox'] {
  font-size: large;
 }
 
+@media (min-width: 768px) {
+	#services h2 {
+		width: 50%;
+	}
+}
+
 #services h2 {
-	width: 50%;
 	border-bottom: 1px dotted #14bf98;
 	margin: auto;
 }
